@@ -1,11 +1,17 @@
 img {
-	height: 40px;
-	width: 181.6px;
+	height: 60px;
+	width: 272.4px;
 	/*Box Shadow 
 	-webkit-filter: drop-shadow(5px 5px 5px #222);
   	filter: drop-shadow(5px 5px 5px #222);*/
 }
-div.navbar-header {
-	min-height: 66px;
-}
 
+.shadowfilter {
+	-webkit-filter: drop-shadow(0px 0px 0px rgba(255,255,255,0.80));
+	-webkit-transition: all 0.5s linear;
+	-o-transition: all 0.5s linear;
+	transition: all 0.5s linear;
+	
+}.shadowfilter:hover {
+	-webkit-filter: drop-shadow(0px 0px 8px rgba(102, 134, 244, 0.83));
+}
