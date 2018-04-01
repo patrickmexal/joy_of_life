@@ -1,7 +1,11 @@
 img {
-	height: 80px;
-	width: 100px;
+	height: 40px;
+	width: 181.6px;
 	/*Box Shadow 
 	-webkit-filter: drop-shadow(5px 5px 5px #222);
   	filter: drop-shadow(5px 5px 5px #222);*/
 }
+div.navbar-header {
+	min-height: 66px;
+}
+
